@@ -8,7 +8,16 @@ Simple example to read iCal with ical4j
 * get the event details in calendar
 * filter the events with rules
 
-Code implementation is placed in MainActivity.java
+Code implementation is placed in MainActivity.java and `app/build.gradle`.
+
+```
+android {
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+}
+```
 
 ## Requirement
 
